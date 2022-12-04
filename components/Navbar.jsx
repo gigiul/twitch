@@ -64,7 +64,7 @@ const Navbar = () => {
              )}
         </div>
 
-         {/* Hamburger Menu */}
+      {/* Hamburger Menu */}
       <div onClick={handleNav} className='block md:hidden z-10 cursor-pointer'>
         {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
